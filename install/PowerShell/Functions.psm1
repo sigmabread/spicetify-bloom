@@ -289,7 +289,7 @@ function Get-Bloom {
         Write-Verbose -Message 'Downloading the Bloom repository archive...' -Verbose
         $Parameters = @{
             UseBasicParsing = $true
-            Uri             = 'https://codeload.github.com/nimsandu/spicetify-bloom/zip/refs/heads/main'
+            Uri             = 'https://codeload.github.com/sigmabread/spicetify-bloom/zip/refs/heads/main'
             OutFile         = $archivePath
         }
         Invoke-WebRequest @Parameters
